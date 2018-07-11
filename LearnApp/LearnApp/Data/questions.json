@@ -1,0 +1,17 @@
+﻿[
+	{
+		Question: "Xamarin.Forms is a great choice when developing mobile business applications or prototypes.",
+		Answer: "true",
+		Explanation: "Xamarin .Forms is ideal for creating line-of-business applications and can be used to rapidly create UIs that work on all supported platforms.",
+	},
+	{
+		Question: "Xamarin.Forms is a great choice when you're required to follow pixel-perfect mockups.",
+		Answer: "true",
+		Explanation: "To create highly customized or pixel perfect UIs, additional customization work is required on each platform.",
+	},
+	{
+		Question: "For the purpose of testing an application, simulators are jut as god as physical devices.",
+		Answer: "false",
+		Explanation: "Simulator features and performance can vary greatly from physical devices",
+	},
+]

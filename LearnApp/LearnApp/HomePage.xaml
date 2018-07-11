@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:LearnApp.MarkupExtensions"
+             x:Class="LearnApp.HomePage">
+
+    <AbsoluteLayout>
+        <!-- Place new controls here -->
+        <Image Source="{local:EmbeddedImage LearnApp.images.background.jpeg}"
+               Aspect="AspectFill"
+               AbsoluteLayout.LayoutBounds="0,0,1,1"
+               AbsoluteLayout.LayoutFlags="All"/>
+
+        <Button Text="Start Exam"
+                BackgroundColor="#0892D0"
+                TextColor="White"
+                Font="Default, Medium"
+                x:Name="button"
+                Clicked="OnStartClicked"
+                AbsoluteLayout.LayoutBounds="0.5,0.5,200,60"
+                AbsoluteLayout.LayoutFlags="PositionProportional"
+                AutomationId="startExamButton"/>
+    </AbsoluteLayout>
+
+</ContentPage>
