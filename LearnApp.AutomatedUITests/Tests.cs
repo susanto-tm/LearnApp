@@ -23,8 +23,18 @@ namespace LearnApp.AutomatedUITests
 		public void BeforeEachTest()
 		{
 			app = AppInitializer.StartApp(platform);
-            
-		}
+            app = ConfigureApp.Android
+                .ApkFile(@"C:\Users\Timothy\source\repos\LearnApp\LearnApp\LearnApp.Android\bin\Release\com.companyname.LearnApp.apk")
+                .StartApp();
+
+        }
+
+        [Test]
+        public void AppLaunches()
+        {
+            app.Repl();
+            app.Screenshot("First Screen.");
+        }
 
 		[Test]
 		public void WelcomeTextIsDisplayed()

@@ -8,7 +8,7 @@ namespace LearnApp.UnitTests
     [TestFixture]
     public class GamesTests
     {
-        [Test]
+        //[Test]
         public void GameTests_TestForCorrectInitialization_ShouldBeOk()
         {
             //Arrange
